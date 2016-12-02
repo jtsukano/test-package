@@ -5,7 +5,7 @@
   "description": "A short description of your package",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "test-package:toggle"
+    "atom-workspace": "test-package:fetch"
   },
   "repository": "https://github.com/atom/test-package",
   "license": "MIT",
@@ -13,6 +13,8 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "cheerio": "^0.20.0",
+    "google": "^2.0.0",
     "request": "^2.73.0"
   }
 }
